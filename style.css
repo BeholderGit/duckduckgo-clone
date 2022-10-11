@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "ddg-serp-icons";
+    src: url("fonts/ddg-serp-icons.woff") format("woff");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #f7f7f7;
+    font-size: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header-nav-container {
+    padding: 1px 23px 0 23px;
+}
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.header-button {
+    font-family: ddg-serp-icons;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px;
+    color: #a5a5a5;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-right: -8px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: ddg-serp-icons;
+    color: #aaa;
+    margin-top: 1.5px;
+}
+
+.header-social-menu span:hover {
+    color: #6d6d6d;
+}
+
+.header-button:hover {
+    color: white;
+    background-color: #6d6d6d;
+}
+
+.horn {
+    margin: 0;
+}
+.horn:before {
+    content: "\48";
+    font-size: 25px;
+}
+.down {
+    margin-left: 5px;
+    margin-top: 3px;
+    margin-right: 1px;
+}
+.down:before {
+    content: "\76";
+}
+
+/* MAIN */
+
+.main-container-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+.logo {
+    width: 200px;
+    height: 162px;
+    background-image: url(img/logo_homepage.normal.v108.svg);
+    background-size: 100% 100%;
+    margin: 0;
+    margin: 14px 0 40px;
+}
+
+.search-input {
+    margin: 0 auto;
+}
+.search-button,
+.search-clear {
+    font-family: ddg-serp-icons;
+}
+
