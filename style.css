@@ -229,11 +229,13 @@ ol {
 
 li svg {
     margin-right: 6px;
+    margin-bottom: 1px;
 }
 .content-list-badge span {
     font-family: "proximaSemiBold", sans-serif;
     font-size: 17px;
     color: #353748;
+    line-height: 1.3em;
 }
 
 .nm {
@@ -245,7 +247,7 @@ li svg {
     height: 43px;
     min-height: 44px;
     margin: 0;
-    margin-top: 25px;
+    margin-top: 23px;
     width: 100%;
     font-size: 15px;
     align-items: center;
@@ -261,7 +263,7 @@ li svg {
 }
 
 .badge-link {
-    margin: 14px auto 0;
+    margin: 15px auto 0;
     padding: 0;
     font-size: 12px;
     font-family: "proximaSemiBold", sans-serif;
