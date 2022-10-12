@@ -76,7 +76,7 @@ html {
 
 .main-container-wrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .main-container {
@@ -85,20 +85,22 @@ html {
     justify-self: center;
     align-items: center;
 }
+.logo-link {
+    margin: 14px 0 40px;
+}
 .logo {
     width: 200px;
     height: 162px;
     background-image: url(img/logo_homepage.normal.v108.svg);
     background-size: 100% 100%;
     margin: 0;
-    margin: 14px 0 40px;
 }
 
-.search-input {
+.search-wrapper {
     margin: 0 auto;
 }
+
 .search-button,
 .search-clear {
     font-family: ddg-serp-icons;
 }
-
