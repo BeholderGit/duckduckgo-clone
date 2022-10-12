@@ -99,8 +99,34 @@ html {
 .search-wrapper {
     margin: 0 auto;
 }
+form {
+    width: 100%;
+    flex: 1 0 auto;
+    max-width: 665px;
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-top: 1px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+    position: relative;
+    height: 2.8em;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 2px 3px rgb(0 0 0 / 6%);
+}
+.search-input {
+    border: none;
+    margin-top: 0;
+    height: 2.8em;
+    width: 100%;
+}
 
 .search-button,
 .search-clear {
     font-family: ddg-serp-icons;
+}
+
+.search-button:hover{
+    background-color: red;
 }
