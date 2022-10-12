@@ -97,29 +97,34 @@ html {
 }
 
 .search-wrapper {
-    margin: 0 auto;
+    margin-left: 7px;
+    margin-right: 7px;
 }
 form {
-    width: 100%;
-    flex: 1 0 auto;
     max-width: 665px;
     margin: 0 auto;
     padding-left: 1em;
     padding-top: 1px;
+    padding-left: 1em;
+    padding-top: 1px;
     box-sizing: border-box;
     border-radius: 4px;
-    display: block;
-    position: relative;
     height: 2.8em;
     background-color: #fff;
-    border: 1px solid rgba(0,0,0,0.15);
+    border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: 0 2px 3px rgb(0 0 0 / 6%);
+    position: relative;
 }
 .search-input {
+    width: 100%;
     border: none;
     margin-top: 0;
-    height: 2.8em;
-    width: 100%;
+    height: 2.545455em;
+    position: relative;
+    font-size: 1.1em;
+    background: none;
+    outline: none;
+    padding-right: 3em;
 }
 
 .search-button,
@@ -127,6 +132,24 @@ form {
     font-family: ddg-serp-icons;
 }
 
-.search-button:hover{
-    background-color: red;
+.search-button {
+    position: absolute;
+    font-size: 1.25em;
+    width: 52px;
+    color: #999;
+    background-color: transparent;
+    -webkit-font-smoothing: subpixel-antialiased;
+    border: none;
+    top: 0;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    border-radius: 0 4px 4px 0;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-right: -3px;
+}
+.search-button:hover {
+    background-color: #2950bf;
+    color: white;
 }
