@@ -3,6 +3,12 @@
     src: url("fonts/ddg-serp-icons.woff") format("woff");
 }
 
+@font-face {
+    font-family: "proxima";
+    src: url("fonts/ProximaNovaFont.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -125,6 +131,7 @@ form {
     background: none;
     outline: none;
     padding-right: 3em;
+    font-family: "proxima", sans-serif;
 }
 
 .search-button,
