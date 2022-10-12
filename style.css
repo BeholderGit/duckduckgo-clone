@@ -92,7 +92,7 @@ html {
     align-items: center;
 }
 .logo-link {
-    margin: 14px 0 40px;
+    margin: 14px 0 36px;
 }
 .logo {
     width: 200px;
@@ -115,7 +115,7 @@ form {
     padding-top: 1px;
     box-sizing: border-box;
     border-radius: 4px;
-    height: 2.8em;
+    height: 46px;
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: 0 2px 3px rgb(0 0 0 / 6%);
@@ -125,13 +125,19 @@ form {
     width: 100%;
     border: none;
     margin-top: 0;
-    height: 2.545455em;
+    height: 2.5em;
     position: relative;
-    font-size: 1.1em;
+    font-size: 1.25em;
+    font-weight: normal;
     background: none;
     outline: none;
     padding-right: 3em;
-    font-family: "proxima", sans-serif;
+    padding-left: 2px;
+    font-family: proxima, sans-serif;
+}
+input::placeholder {
+    opacity: 0.9;
+    color: #999;
 }
 
 .search-button,
@@ -141,8 +147,8 @@ form {
 
 .search-button {
     position: absolute;
-    font-size: 1.25em;
-    width: 52px;
+    font-size: 1.42em;
+    width: 55px;
     color: #999;
     background-color: transparent;
     -webkit-font-smoothing: subpixel-antialiased;
@@ -154,7 +160,7 @@ form {
     border-radius: 0 4px 4px 0;
     margin-top: -1px;
     margin-bottom: -1px;
-    margin-right: -3px;
+    margin-right: -2px;
 }
 .search-button:hover {
     background-color: #2950bf;
