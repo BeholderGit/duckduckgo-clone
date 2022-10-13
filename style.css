@@ -187,7 +187,7 @@ input::placeholder {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 32px auto 48px;
+    margin: 32px auto 49px;
 }
 
 .content-container h1 {
@@ -220,6 +220,7 @@ ol {
     flex-direction: row;
     list-style: none;
 }
+
 .content-list-badge {
     display: flex;
     align-items: center;
@@ -244,21 +245,16 @@ li svg {
 
 .link-button {
     display: flex;
-    height: 43px;
     min-height: 44px;
-    margin: 0;
     margin-top: 23px;
-    width: 100%;
     font-size: 15px;
     align-items: center;
     justify-content: center;
     background-color: #678fff !important;
-    border-color: #678fff !important;
-    box-sizing: border-box;
     border-radius: 10px;
-    white-space: normal;
     color: white;
     padding: 2px 15px;
+    border: none;
     font-family: "proximaSemiBold", sans-serif;
 }
 
@@ -268,4 +264,48 @@ li svg {
     font-size: 12px;
     font-family: "proximaSemiBold", sans-serif;
     color: #333;
+}
+
+.cards-container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: none;
+    text-align: center;
+}
+
+.cards-title {
+    font-family: "proximaSemiBold", sans-serif;
+    font-size: 17px;
+    color: #353748;
+    line-height: 1.3em;
+}
+.cards-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1140px;
+    min-height: 322px;
+    margin: 0 auto;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: white;
+    width: 332px;
+    min-height: 332px;
+    border-radius: 18px;
+    margin: 30px 12px 0 12px;
+    padding: 24px;
+    box-shadow: 0px 10px 16px -8px rgb(0 0 0 / 20%);
+}
+
+.cards-icons {
+    display: block;
+    width: auto;
+    margin: 20px 20px 32px;
+    min-height: 72px px;
+    max-height: 72px;
 }
