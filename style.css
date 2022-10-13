@@ -262,6 +262,7 @@ li svg {
     padding: 2px 15px;
     border: none;
     font-family: "proximaSemiBold", sans-serif;
+    cursor: pointer;
 }
 
 .badge-link {
