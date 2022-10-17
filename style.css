@@ -278,6 +278,20 @@ li svg {
         align-items: center;
         padding: 0;
     }
+    ol {
+        display: block;
+        padding-bottom: 0px;
+        margin: 20px auto 0px;
+    }
+    .content-list-badge {
+        margin: 0 0 12px;
+        justify-content: left;
+    }
+    .cards {
+        width: 290px!important;
+        margin: 0 12px 20px;
+        max-width: 90%;
+    }
 }
 .cards-container {
     position: relative;
