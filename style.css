@@ -40,13 +40,13 @@ html {
         padding: 0;
     }
     ol {
-        display: block;
+        display: block !important;
         padding-bottom: 0px;
-        margin: 20px auto 0px;
+        margin: 20px auto 0px !important;
     }
     .content-list-badge {
-        margin: 0 0 12px;
-        justify-content: left;
+        margin: 0 0 12px !important;
+        justify-content: left !important;
     }
     .cards {
         width: 290px !important;
