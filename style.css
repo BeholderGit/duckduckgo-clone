@@ -305,6 +305,15 @@ li svg {
         margin: 10px !important;
         text-align: center !important;
     }
+    .footer-content h4 {
+        font-size: 24px !important;
+        line-height: 27px !important;
+    }
+    .footer-p {
+        font-size: 17px !important;
+        line-height: 20px !important;
+        margin: 0 30px 0 30px!important;
+    }
 }
 .cards-container {
     position: relative;
