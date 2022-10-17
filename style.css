@@ -288,9 +288,15 @@ li svg {
         justify-content: left;
     }
     .cards {
-        width: 290px!important;
+        width: 290px !important;
         margin: 0 12px 20px;
         max-width: 90%;
+    }
+    footer {
+        margin: 250px 0 0 0 !important;
+    }
+    .content-curve {
+        transform: translateY(60px) !important;
     }
 }
 .cards-container {
@@ -367,8 +373,8 @@ li svg {
     position: absolute;
     left: 0;
     color: #e37151;
+    transform: translateY(-260px);
     z-index: -1;
-    transform: translateY(120px);
 }
 /*
 .cards-container::after {
