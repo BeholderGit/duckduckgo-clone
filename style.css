@@ -272,7 +272,13 @@ li svg {
     font-family: "proximaSemiBold", sans-serif;
     color: #333;
 }
-
+@media only screen and (max-width: 930px) {
+    .cards-items {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+}
 .cards-container {
     position: relative;
     margin: 0 auto;
@@ -350,6 +356,7 @@ li svg {
     z-index: -1;
     transform: translateY(120px);
 }
+/*
 .cards-container::after {
     display: block;
     position: absolute;
@@ -362,6 +369,8 @@ li svg {
     height: calc(100% - 220px);
     z-index: -1;
 }
+
+*/
 
 /* FOOTER */
 footer {
